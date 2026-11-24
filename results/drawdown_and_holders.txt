@@ -1,0 +1,22 @@
+1) End Date extension: market moves its close from Jun to Sep 2027 -> package 44.09 -> 43.43 (-0.66); to Dec -> 42.64 (-1.44)
+   if the market also marks close odds down 2 pts: about -0.32 more
+   if the market also marks close odds down 5 pts: about -0.80 more
+2) Rocket Lab -30% to $34.74: Iridium package (Jun close) 44.09 -> 39.82 (-4.26); linear delta 0.258 x -14.89 = -3.85
+2) Rocket Lab +30% to $64.52: Iridium package (Jun close) 44.09 -> 47.63 (+3.55); linear delta 0.258 x +14.89 = +3.85
+3) event-driven / multi-strategy 13F holders at Sep 30 2026 (top-40 list):
+   Balyasny Asset Management L.P.            5.18m  change 4,212,406
+   Tudor Investment Corp Et Al               3.95m  change 3,951,820
+   Millennium Management Llc                 2.09m  change 1,936,440
+   Pentwater Capital Management Lp           1.44m  change 1,439,000
+   Aqr Capital Management Llc                1.04m  change -5,807,785
+   Alpine Associates Management Inc.         1.00m  change 707,084
+   Magnetar Financial Llc                    0.94m  change 788,746
+   Qube Research & Technologies Ltd          0.75m  change 596,315
+   Glazer Capital, Llc                       0.53m  change 530,075
+   Jane Street Group, Llc                    0.46m  change 450,082
+   Woodline Partners Lp                      0.45m  change 408,500
+   Aqr Arbitrage Llc                         0.44m  change 304,890
+   total 18.26m shares = 17.2% of 106.16m outstanding
+   at the Oct 30 average daily volume of 688,924 shares, that is 27 trading days of volume to exit
+   IRDM short interest Oct 30: 3,031,712 shares. RKLB short interest Oct 30: 46,410,138 vs the maximum arb hedge 0.4 x 106.16m = 42.46m
+   institutional ownership 94.77%; new positions in Q3: 83 holders, 7,340,273 shares

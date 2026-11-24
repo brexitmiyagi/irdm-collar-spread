@@ -1,0 +1,6 @@
+break at 17.76: implied close odds 95.8%
+break at 25.00: implied close odds 94.4%
+break at 28.52: implied close odds 93.2%
+break at 35.00: implied close odds 89.0%
+break at 40.00: implied close odds 78.7%
+Party A regulatory fee at 5.5% of 41 to 45: 2.25 to 2.48

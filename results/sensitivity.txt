@@ -1,0 +1,10 @@
+case                                    2027-03-31  2027-06-30  2027-09-30  2027-12-28   Mar->Dec
+base (spot $49.63, fitted IV)                45.27       44.09       43.43       42.64   -2.62  falls every quarter
+IV +10 pts                                   44.94       43.71       43.06       42.27   -2.67  falls every quarter
+IV -10 pts                                   45.60       44.50       43.83       43.07   -2.53  falls every quarter
+Rocket Lab $40                               42.32       41.43       40.82       40.11   -2.20  falls every quarter
+Rocket Lab $60                               47.93       46.61       46.00       45.18   -2.75  falls every quarter
+Rocket Lab at 10-day VWAP $57.30             47.29       45.98       45.35       44.54   -2.75  falls every quarter
+10-day VWAP averaging at closing             45.37       44.16       43.48       42.69   -2.68  falls every quarter
+borrow 0%                                    45.30       44.15       43.51       42.75   -2.55  falls every quarter
+borrow 3%                                    45.16       43.92       43.18       42.34   -2.82  falls every quarter

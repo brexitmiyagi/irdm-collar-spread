@@ -1,0 +1,8 @@
+SpaceX-EchoStar: $17,000m ($19,000m with interest) for 50 MHz -> $340m to $380m per MHz (terrestrial-capable spectrum)
+Globalstar ex-Apple (Apple contract at 6x revenue, rest at 3x): Apple $176m/yr, other $99m/yr -> spectrum residual $10,339m / 25.225 MHz = $410m per MHz
+Globalstar ex-Apple (Apple contract at 10x revenue, rest at 3x): Apple $176m/yr, other $99m/yr -> spectrum residual $9,637m / 25.225 MHz = $382m per MHz
+  EchoStar low               $340m/MHz x 8.725 MHz = $2,966m + Aireon $524m - net debt $2,062m -> $13.12 a share
+  EchoStar high              $380m/MHz x 8.725 MHz = $3,316m + Aireon $524m - net debt $2,062m -> $16.32 a share
+  Globalstar ex-Apple low    $382m/MHz x 8.725 MHz = $3,333m + Aireon $524m - net debt $2,062m -> $16.48 a share
+  Globalstar ex-Apple high   $410m/MHz x 8.725 MHz = $3,576m + Aireon $524m - net debt $2,062m -> $18.71 a share
+note: both comps carry terrestrial rights (AWS-4, Globalstar n53) that Iridium's L-band lacks, so these per-MHz values flatter Iridium

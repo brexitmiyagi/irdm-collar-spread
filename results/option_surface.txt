@@ -1,0 +1,11 @@
+2027-01-15: parity-implied borrow +2.2%, 18 strikes, IV at 50 79%, at 67.50 77%, at 112.50 88%
+2027-03-19: parity-implied borrow +0.8%, 14 strikes, IV at 50 81%, at 67.50 77%, at 112.50 82%
+2027-04-16: parity-implied borrow +0.5%, 10 strikes, IV at 50 80%, at 67.50 76%, at 112.50 77%
+2027-05-21: parity-implied borrow -0.0%, 9 strikes, IV at 50 82%, at 67.50 79%, at 112.50 77%
+2027-06-17: parity-implied borrow +0.6%, 13 strikes, IV at 50 83%, at 67.50 80%, at 112.50 75%
+2027-07-16: parity-implied borrow +0.8%, 6 strikes, IV at 50 81%, at 67.50 79%, at 112.50 78%
+2027-09-17: parity-implied borrow +1.1%, 12 strikes, IV at 50 82%, at 67.50 80%, at 112.50 82%
+2027-12-17: parity-implied borrow +0.3%, 8 strikes, IV at 50 81%, at 67.50 78%, at 112.50 72%
+2028-01-21: parity-implied borrow +0.8%, 25 strikes, IV at 50 80%, at 67.50 78%, at 112.50 76%
+2028-06-16: parity-implied borrow +0.8%, 11 strikes, IV at 50 78%, at 67.50 77%, at 112.50 82%
+median parity-implied borrow cost (expiries past 3 months): 0.8% a year

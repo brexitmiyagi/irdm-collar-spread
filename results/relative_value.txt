@@ -1,0 +1,5 @@
+GSAT  (Amazon): value $85.19 vs $85.96, gross -0.9%, -1.5% a year, -5.8% over bills, close 2027-06-30
+TXNM  (Blackstone Infrastructure): value $61.25 vs $58.95, gross +3.9%, +6.6% a year, +2.3% over bills, close 2027-06-30
+NSC   (Union Pacific): value $377.71 vs $316.65, gross +19.3%, +17.3% a year, +12.8% over bills, close 2027-12-31
+IRDM (Rocket Lab), collar priced, Jun 30 2027 close: +7.9% a year if it closes, +3.4% over bills; Sep 30: +5.0% / +0.6%
+note: GSAT assumes cash elections prorated to 40% and AMZN below $280.38; Apple adjustment (up to $110m) ignored. Dividends ignored for GSAT/TXNM/NSC.

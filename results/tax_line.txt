@@ -1,0 +1,3 @@
+RKLB price where the stock leg is 40%: 45.00
+at 49.63: stock share 42.4%, stock leg $19.85
+stock leg at the line: $18.00

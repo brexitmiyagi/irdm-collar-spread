@@ -1,0 +1,10 @@
+naive deal value 46.85, spread 3.64 (8.4%)
+call 67.50 ~ 6.89, call 112.50 ~ 1.62, discount factor 0.9768
+package 43.86, with 3 dividends 44.33
+where the spread goes:
+  net call sold        2.37
+  time value of cash   0.63
+  dividends received  -0.47
+  left for break risk  1.12
+excess over bills 2.59% over the period, 4.66% a year
+if it closes: payoff at close ~45.38, total return 5.0%, 9.1% a year

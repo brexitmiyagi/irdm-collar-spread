@@ -1,0 +1,5 @@
+package if it closes: low 43.91, mid 44.33, high 44.75
+upside if it closes (PV, over bills): low 0.70, mid 1.12, high 1.54
+break at 28.52: implied odds 90.9% to 95.6% (mid 93.2%), loss on break 14.69
+break at 35.00: implied odds 85.4% to 92.8% (mid 89.0%), loss on break 8.21
+break at 43.00: implied odds 43.9% to 63.3% (mid 51.8%), loss on break 0.21

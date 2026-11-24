@@ -1,0 +1,3 @@
+implied vol 67.50: 80%, 112.50: 77%
+Iridium delta to Rocket Lab: 0.261 shares, about $12.97 of RKLB per IRDM share (30% of the price)
+Oct 9 to Oct 16 actual: 0.21

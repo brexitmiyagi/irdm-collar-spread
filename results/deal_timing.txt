@@ -1,0 +1,20 @@
+  49 days  Iridium-Aireon               heavy=no
+  70 days  Gogo-Satcom Direct           heavy=no
+  91 days  Intelsat-Gogo CA             heavy=no
+ 130 days  Viasat-RigNet                heavy=no
+ 130 days  SES-DRS GES                  heavy=no
+ 138 days  Advent-Maxar                 heavy=no
+ 142 days  GI Partners-ORBCOMM          heavy=no
+ 246 days  SpaceX-EchoStar spectrum     heavy=yes
+ 330 days  Indra-Hispasat               heavy=yes
+ 337 days  AT&T-EchoStar spectrum       heavy=yes
+ 429 days  Eutelsat-OneWeb              heavy=yes
+ 443 days  SES-Intelsat                 heavy=yes
+ 571 days  Viasat-Inmarsat              heavy=yes
+all 13 deals: median 142 days; cross-border/FCC-heavy 6 deals: median 383.0 days, range 246 to 571
+by Mar 31 2027 (276 days after signing): 1 of 6 heavy deals done
+by Jun 30 2027 (367 days after signing): 3 of 6 heavy deals done
+by Sep 30 2027 (459 days after signing): 5 of 6 heavy deals done
+by Dec 28 2027 (548 days after signing): 5 of 6 heavy deals done
+data-derived weights: Mar 31 2027 17%, Jun 30 2027 33%, Sep 30 2027 33%, Dec 28 2027 17%
+heavy median applied to Iridium: 2027-07-16

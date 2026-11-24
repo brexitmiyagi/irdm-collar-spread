@@ -1,0 +1,18 @@
+undisturbed Apr 1 2026: 28.52
+  factors SPY            betas 0.99  R2 0.11  -> $31.40
+  factors SPY+VSAT       betas 0.84, 0.08  R2 0.12  -> $31.74
+  factors SPY+ASTS       betas 0.77, 0.15  R2 0.18  -> $25.90
+  factors SPY+VSAT+ASTS  betas 0.75, 0.02, 0.14  R2 0.18  -> $26.07
+  factors XLC+VSAT       betas 0.68, 0.11  R2 0.10  -> $28.06
+  SPY Apr 1 -> Nov 23: +10.2%
+  VSAT Apr 1 -> Nov 23: +34.9%
+  ASTS Apr 1 -> Nov 23: -69.4%
+  XLC Apr 1 -> Nov 23: -6.9%
+peer-adjusted: $25.90 to $31.74, average $28.63
+run-rate OEBITDA $532m (Q3 x4 less 2%)
+peer 2027E multiples [5.5, 5.7, 6.4, 8.5, 8.7], median 6.4x
+  6.4x peer median   -> $12.31
+  7.5x Evercore low  -> $17.68
+  9.5x Evercore mid  -> $27.44
+  11.5x Evercore high -> $37.20
+triangulated standalone break price: $28.04 (range $17.68 to $31.74)

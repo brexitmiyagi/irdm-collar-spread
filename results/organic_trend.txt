@@ -1,0 +1,8 @@
+q3_revenue_pro_forma_k: 245,733 vs 249,317 (-1.4%)
+ninemonth_revenue_pro_forma_k: 733,779 vs 726,365 (+1.0%)
+q3_net_income_pro_forma_k: 2,068 vs 29,384 (-93.0%)
+ninemonth_oebitda_k: 371,069 vs 380,018 (-2.4%)
+q3_voice_data_k: 58,002 vs 59,930 (-3.2%)
+q3_iot_k: 48,669 vs 46,707 (+4.2%)
+q3_broadband_k: 11,822 vs 12,970 (-8.9%)
+Q3 voice + IoT + broadband: 118,493 vs 119,607 (-0.9%)
