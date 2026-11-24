@@ -38,6 +38,8 @@ Python 3, no packages needed. From any folder:
     python scripts/irdm_options.py        (pass a chain CSV to run it on a newer pull)
     python scripts/fcc_team_telecom_timing.py
     python scripts/arb_crowding.py
+    python scripts/implied_timing.py
+    python scripts/holder_view.py
     python scripts/expected_value.py
     python scripts/tornado.py
     python scripts/spectrum_repricing.py
@@ -50,6 +52,8 @@ Python 3, no packages needed. From any folder:
     python scripts/tieout.py              (runs everything in order and checks every quoted number)
 
 ## What each script gives you
+
+One thing first. Every valuation script reads data/anchor.json, which holds one snapshot of Iridium, Rocket Lab and Rocket Lab's option chain. The piece uses Nov 24 2026 at 10:36 a.m. ET (Iridium $42.18, Rocket Lab $45.45), with borrow pinned at 0.8% because intraday put-call parity gave a negative number. Some descriptions below still quote what a script printed on the Nov 23 close when I first wrote it, so today's output will differ. The numbers the piece actually quotes are in results/article_numbers.json, and tieout.py checks every one of them.
 
 - spread_history.py: the daily deal value against the Iridium close since June 26, the 8.4% naive spread, the date Rocket Lab first went under the $67.50 floor, and the October Neutron week.
 - option_adjusted_spread.py: the package priced with Rocket Lab's June 2027 calls, and where the $3.64 spread goes ($2.37 call sold, $0.63 time value, $0.47 dividends back, $1.12 for break risk). The $44.33 is a present value, so 2.59% / 4.66% a year is return above bills, not total return.
@@ -77,7 +81,11 @@ Python 3, no packages needed. From any folder:
 - short_interest.py: Rocket Lab short interest before and after the deal. It rose 12.2m shares and days to cover is 2.8, so it isn't crowded.
 - break_price_competition.py: a broken Iridium if direct-to-device competition shrinks voice/data and broadband. $17 to $25 depending on how fast.
 - irdm_options.py: Iridium's own option chain is too thin to price a break, and this shows how thin. Plus where the put open interest sits.
-- fcc_team_telecom_timing.py: two FCC samples. Referred: every ECFS docket since the April 2020 Team Telecom executive order with a Team Telecom letter, 30 non-satellite grants (median 220 days) and three satellite ones (253, 316, 373). Not referred: five large transfers (Amazon-Globalstar 145, Charter-Cox 175, Verizon-Frontier 189, both EchoStar spectrum sales 224), median 189. Iridium's notice says it wasn't referred, so the not-referred dates (Feb 7 to Apr 27 2027) carry half the weight.
+- fcc_team_telecom_timing.py: two FCC samples. Referred: every ECFS docket since the April 2020 Team Telecom executive order with a Team Telecom letter, 30 non-satellite grants (median 220 days) and three satellite ones (253, 316, 373). Not referred: five large transfers (Amazon-Globalstar 145, Charter-Cox 175, Verizon-Frontier 189, both EchoStar spectrum sales 224), median 189. Iridium's notice says it wasn't referred, so the not-referred dates (Feb 7 to Apr 27 2027) carry half the weight. It also prints the twin's pace after its comment cycle: Globalstar's grant came 88 days after its reply deadline, which put on Iridium's Nov 9 deadline is Feb 5 2027.
+- pull_snapshot.py: pulls Iridium, Rocket Lab and Rocket Lab's whole option chain from Nasdaq at one moment and writes data/anchor.json. Run it with a label, then tieout.py, to re-price everything at a new moment.
+- article_numbers.py: computes every number the piece quotes from the anchor and writes results/article_numbers.json. (render_article.py is the small helper I use to fill my draft from that file.)
+- implied_timing.py: holds my close odds fixed and solves for the closing date the price pays for. At the anchor it's Jun 7 2027, against a Mar 23 2027 median grant for the deals the FCC didn't refer.
+- holder_view.py: the trade at $10,000: P&L for each outcome hedged, what Rocket Lab does to an unhedged holder, and the odds of an FCC grant by Mar 31 and Apr 30 2027 on each timing sample.
 - arb_crowding.py: every 13F holder of Iridium, sorted by name into merger-arb and multi-strategy funds. They went from 2.2% of the shares at Jun 30 to 15.4% at Sep 30.
 - expected_value.py: the base case. Close-date weights blended from the FCC sample and the six satellite deals, with close odds at 94.6% and 97% and a Party A re-bid at 0%, 25% and 50%.
 - tornado.py: expected value as each input moves across its range. Close odds and Rocket Lab volatility matter most.
@@ -96,7 +104,7 @@ Python 3, no packages needed. From any folder:
 - tax_line.py: the $45.00 Rocket Lab price where the stock leg drops under 40% of the consideration.
 - implied_probability.py: the close odds the market is pricing for three guesses at a broken deal price, plus Party A's 5.5% regulatory fee in dollars a share.
 
-Output from my run on Nov 24, 2026 is in results/. Prices are Nov 23 closes; the tracker logs have the Nov 24 refreshes.
+Output from my run on Nov 24, 2026 is in results/, priced at the 10:36 a.m. ET anchor. The tracker logs have each refresh.
 
 ## Sources
 
