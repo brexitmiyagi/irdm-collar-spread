@@ -1,7 +1,7 @@
 # base case and ranges: timing from the FCC datasets (base = half not-referred, a quarter each referred set), break price from the line-by-line model or the old $28, close odds 94.6% / 97%, Party A 0/25/50%
 import math
 import collar
-from timing_weights import NONSAT, SAT, REFERRED, NONREF, BASE, BREAK_MODEL
+from timing_weights import NONSAT, SAT, REFERRED, NONREF, BASE, BREAK_MODEL, NR
 pk = [collar.package(c)['V'] for c in collar.CLOSES]
 DFb = math.exp(-math.log(1.0426) * 0.6)
 def ev(W, p=0.946, q=0.25, B0=BREAK_MODEL):
@@ -32,7 +32,7 @@ def implied_odds(px, W=BASE):
 print(f'close odds implied by the entry price on base timing: {implied_odds(entry):.1%}; by ${collar.PRICE}: {implied_odds(collar.PRICE):.1%}')
 # the timing weighting, side by side: each sample on its own and the blend I use (half not referred, a quarter each referred set)
 print('timing weighting (weights Mar/Jun/Sep/Dec 2027 | weight in my blend | value | vs T-bills | entry at +0.6%):')
-for lab, W, wt in (('not referred (5 deals)', NONREF, '50%'), ('referred non-satellite (30)', NONSAT, '25%'),
+for lab, W, wt in ((f'not referred ({len(NR)} deals)', NONREF, '50%'), ('referred non-satellite (30)', NONSAT, '25%'),
                    ('referred satellite (3)', SAT, '25%'), ('blend I use', BASE, '-')):
     e = ev(W)[1]
     print(f'  {lab:28s} {"/".join(f"{x:.0%}" for x in W):18s} {wt:>4s}  {e:.2f}  {e/collar.PRICE-1:+.2%}  {e/1.006:.2f}')

@@ -37,7 +37,11 @@ def rest(sample):
     later = [int(x) for x in sample if int(x) > k]
     if not later: return None
     return [sum(cut[i - 1] < x <= cut[i] if i else x <= cut[0] for x in later) / len(later) for i in range(len(cut) - 1)] + [sum(x > cut[-2] for x in later) / len(later)]
-parts = [(0.25, rest(nonsat)), (0.25, rest(sat))]        # the not-referred deals all granted by day 224, so none are left
+# each sample counts in proportion to how much of it is still ungranted on day 227 (a proper conditional, so the
+# not-referred deals that ran long get their say)
+parts = [(0.5 * sum(int(x) > k for x in NR) / len(NR), rest(NR)),
+         (0.25 * sum(int(x) > k for x in nonsat) / len(nonsat), rest(nonsat)),
+         (0.25 * sum(int(x) > k for x in sat) / len(sat), rest(sat))]
 wsum = sum(w for w, r in parts if r)
 W = [sum(w * r[i] for w, r in parts if r) / wsum for i in range(4)]
 T0 = collar.T0; collar.T0 = on

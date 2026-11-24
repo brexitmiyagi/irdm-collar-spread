@@ -29,7 +29,7 @@ checks = {
  'irdm_options.py': ['60 with a two-sided quote', 'median $5.00', '2028-12-15 $22.50 put: 801', '2028-12-15 $25.00 put: 571', '1945 (45%)', 'after Dec 28 2027: 1474'],
  'collar_deal_sample.py': ['n=604 median 277 days', 'n= 92 median 366 days'],
  'late_deals.py': ['47 closed, median 203 days', 'Mar 31 64%, Jun 30 77%, Sep 30 87%, Dec 28 94%', '5 of 52 = 9.6%', '4 of 8 closed', '1166 days', '600 days'],
- 'fcc_team_telecom_timing.py': ['33 granted (30 non-satellite, 3 satellite)', 'median 220 days, middle half 199 to 259, 3 of 30 inside 180, slowest 441', '2022-05-11 -> grant 2023-05-19, 373 days', '2022-11-23 -> grant 2023-08-03, 253 days', '2024-08-29 -> grant 2025-07-11, 316 days', '35% / 45% / 18% / 2%', '60% / 40% / 0% / 0%', 'Apr 22 2027', 'Jul 28 2027', 'median 189', 'Feb 07 2027', 'grant 2026-10-27: 88 days', 'lands on Feb 05 2027'],
+ 'fcc_team_telecom_timing.py': ['33 granted (30 non-satellite, 3 satellite)', 'median 220 days, middle half 199 to 259, 3 of 30 inside 180, slowest 441', '2022-05-11 -> grant 2023-05-19, 373 days', '2022-11-23 -> grant 2023-08-03, 253 days', '2024-08-29 -> grant 2025-07-11, 316 days', '26% / 37% / 31% / 6%', '42% / 25% / 25% / 8%', 'Apr 22 2027', 'Jul 28 2027', 'median 224.0', 'Feb 07 2027', 'grant 2026-10-27: 88 days', 'lands on Feb 05 2027'],
  'spectrum_repricing.py': ['25.12 -> Sep 10 2025 17.96 (-28.5%)', '43.21 (+72.0%', '85.96 (+175.2%', '25.67 (-39.5%', '61.02 (+105.8%', '37.94 (+21.5%)'],
  'event_study.py': ['$0.460', '$+0.83 (+1.3 sd)', '$+0.35 (+0.5 sd)'],
  'liquidity.py': ['3.4 days'],

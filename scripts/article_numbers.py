@@ -45,5 +45,13 @@ def pmid(e, K):
 T = (dt.date(2027, 6, 17) - collar.T0).days / 365
 v['tax_odds'] = f'{(pmid("2027-06-17", 50.0) - pmid("2027-06-17", 40.0)) / 10 / math.exp(-collar.rate(T) * T):.0%}'
 v['tax_gap'] = f'{abs(S - 45):.2f}'; v['tax_side'] = 'above' if S >= 45 else 'below'
+# the dated call, grant odds by Mar 31 and Apr 30 2027 on the not-referred deals alone and on the 50/25/25 blend
+for lab, dd in (('mar', dt.date(2027, 3, 31)), ('apr', dt.date(2027, 4, 30))):
+    k = (dd - PN).days
+    nr_, ns_, st_ = HV.by(k, NR), HV.by(k, HV.nonsat), HV.by(k, HV.sat)
+    v['g_' + lab + '_nr'] = f'{nr_:.0%}'; v['g_' + lab] = f'{0.5*nr_ + 0.25*ns_ + 0.25*st_:.0%}'
+v['nr_n'] = str(len(NR)); v['nr_med'] = (PN + dt.timedelta(days=int(sorted(int(x) for x in NR)[len(NR)//2 - 1] / 2 + sorted(int(x) for x in NR)[len(NR)//2] / 2))).strftime('%B %-d, %Y')
+w = [f'{x:.0%}' for x in BASE]; v['w_mar'], v['w_jun'], v['w_sep'], v['w_dec'] = w
+w = [f'{x:.0%}' for x in NONREF]; v['nw_mar'], v['nw_jun'], v['nw_sep'], v['nw_dec'] = w
 json.dump(v, open(os.path.join(HERE, '..', 'results', 'article_numbers.json'), 'w'), indent=1)
 print(json.dumps(v, indent=1))
