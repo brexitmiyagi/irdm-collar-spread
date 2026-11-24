@@ -1,12 +1,12 @@
-$10,000 buys 237 Iridium shares at $42.18; the hedge is short about 62 Rocket Lab shares ($2,802)
-  deal closes (any date), Rocket Lab at $45.4501 Iridium $ 45.18  P&L $+711
-  FCC slips past June, marked then               Iridium $ 41.77  P&L $-96
-  extension notice, marked then                  Iridium $ 41.92  P&L $-63
-  Party A re-bids                                Iridium $ 43.00  P&L $+194
-  break, Iridium on its own                      Iridium $ 22.81  P&L $-4,592
-unhedged: model delta 0.274 Iridium dollars per Rocket Lab dollar, so 30% of Rocket Lab's percentage moves pass through
-  Rocket Lab -10 dollars: Iridium about $-2.93 a share, $-694 on $10,000 unhedged
-  Rocket Lab +10 dollars: Iridium about $+2.58 a share, $+612 on $10,000 unhedged
+$10,000 buys 237 Iridium shares at $42.22; the hedge is short about 62 Rocket Lab shares ($2,788)
+  deal closes (any date), Rocket Lab at $45.28   Iridium $ 45.11  P&L $+685
+  FCC slips past June, marked then               Iridium $ 41.81  P&L $-98
+  extension notice, marked then                  Iridium $ 41.95  P&L $-63
+  Party A re-bids                                Iridium $ 43.00  P&L $+185
+  break, Iridium on its own                      Iridium $ 22.81  P&L $-4,597
+unhedged: model delta 0.276 Iridium dollars per Rocket Lab dollar, so 30% of Rocket Lab's percentage moves pass through
+  Rocket Lab -10 dollars: Iridium about $-2.96 a share, $-701 on $10,000 unhedged
+  Rocket Lab +10 dollars: Iridium about $+2.60 a share, $+616 on $10,000 unhedged
 FCC grant by Mar 31 2027 (day 197): not referred 42%, referred non-satellite 20%, referred satellite 0%, blend 26%
 FCC grant by Apr 30 2027 (day 227): not referred 58%, referred non-satellite 53%, referred satellite 0%, blend 43%
-no grant by Apr 30 2027: remaining timing Jun/Sep/Dec 36%/54%/10%; Iridium worth about $42.86 then; stop P&L on $10,000 hedged $+160 before carry
+no grant by Apr 30 2027: remaining timing Jun/Sep/Dec 36%/54%/10%; Iridium worth about $42.87 then; stop P&L on $10,000 hedged $+155 before carry

@@ -1,6 +1,6 @@
-base: -0.35% vs T-bills
-close odds 92% / 98%                   -1.31% to +0.92%  (range 2.24 pts)
-Rocket Lab implied vol +10 / -10 pts   -1.09% to +0.46%  (range 1.55 pts)
-timing: referred satellite / not referred -1.27% to -0.00%  (range 1.27 pts)
-Party A returns 0% / 50%               -0.98% to +0.28%  (range 1.26 pts)
-break price $15 / $28                  -1.08% to +0.14%  (range 1.22 pts)
+base: -0.38% vs T-bills
+close odds 92% / 98%                   -1.35% to +0.89%  (range 2.24 pts)
+Rocket Lab implied vol +10 / -10 pts   -1.13% to +0.43%  (range 1.56 pts)
+timing: referred satellite / not referred -1.33% to -0.03%  (range 1.30 pts)
+Party A returns 0% / 50%               -1.01% to +0.25%  (range 1.26 pts)
+break price $15 / $28                  -1.11% to +0.11%  (range 1.22 pts)

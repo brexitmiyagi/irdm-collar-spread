@@ -1,5 +1,5 @@
-Mar 31 -> Dec 28 2027: package 45.27 -> 42.64, loss 2.62
-  collar (short $67.50 call, long $112.50 call): 1.93
+Mar 31 -> Dec 28 2027: package 43.93 -> 41.48, loss 2.45
+  collar (short $67.50 call, long $112.50 call): 1.77
   waiting for the $27 cash: 0.89
   borrow drag on the stock leg: 0.11
   extra dividends received: -0.31

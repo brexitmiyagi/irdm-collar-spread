@@ -1,8 +1,8 @@
-1) End Date extension: market moves its close from Jun to Sep 2027 -> package 44.09 -> 43.43 (-0.66); to Dec -> 42.64 (-1.44)
-   if the market also marks close odds down 2 pts: about -0.32 more
-   if the market also marks close odds down 5 pts: about -0.80 more
-2) Rocket Lab -30% to $34.74: Iridium package (Jun close) 44.09 -> 39.82 (-4.26); linear delta 0.258 x -14.89 = -3.85
-2) Rocket Lab +30% to $64.52: Iridium package (Jun close) 44.09 -> 47.63 (+3.55); linear delta 0.258 x +14.89 = +3.85
+1) End Date extension: market moves its close from Jun to Sep 2027 -> package 42.98 -> 42.23 (-0.75); to Dec -> 41.48 (-1.51)
+   if the market also marks close odds down 2 pts: about -0.30 more
+   if the market also marks close odds down 5 pts: about -0.74 more
+2) Rocket Lab -30% to $31.70: Iridium package (Jun close) 42.98 -> 38.86 (-4.13); linear delta 0.276 x -13.58 = -3.76
+2) Rocket Lab +30% to $58.86: Iridium package (Jun close) 42.98 -> 46.45 (+3.46); linear delta 0.276 x +13.58 = +3.76
 3) event-driven / multi-strategy 13F holders at Sep 30 2026 (top-40 list):
    Balyasny Asset Management L.P.            5.18m  change 4,212,406
    Tudor Investment Corp Et Al               3.95m  change 3,951,820

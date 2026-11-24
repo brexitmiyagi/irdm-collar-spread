@@ -1,5 +1,5 @@
 2026-06-29 to 2026-11-23: Iridium 54.59 -> 43.21, Rocket Lab 98.01 -> 49.63
 all days: 0.231 Iridium dollars per Rocket Lab dollar (se 0.014, R squared 0.72, n 103)
-2026-06-29 to 2026-08-31: realized 0.222 (se 0.027, R squared 0.61); model at average Rocket Lab $75.22: 0.207
-2026-09-01 to 2026-10-15: realized 0.217 (se 0.022, R squared 0.76); model at average Rocket Lab $67.08: 0.217
-2026-10-16 to 2026-11-23: realized 0.255 (se 0.016, R squared 0.91); model at average Rocket Lab $54.74: 0.243
+2026-06-29 to 2026-08-31: realized 0.222 (se 0.027, R squared 0.61); model at average Rocket Lab $75.22: 0.210
+2026-09-01 to 2026-10-15: realized 0.217 (se 0.022, R squared 0.76); model at average Rocket Lab $67.08: 0.220
+2026-10-16 to 2026-11-23: realized 0.255 (se 0.016, R squared 0.91); model at average Rocket Lab $54.74: 0.246

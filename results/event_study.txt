@@ -1,6 +1,6 @@
 hedged daily move (Iridium less model delta x Rocket Lab): standard deviation $0.460
-FCC public notice (2026-09-15): hedged move over 2 days $+0.83 (+1.3 sd); implied odds 99.4% -> 104.6%
-Iridium withdraws 116 petitions (2026-10-14): hedged move over 2 days $+0.35 (+0.5 sd); implied odds 98.7% -> 101.1%
-reply comments filed (2026-11-09): hedged move over 2 days $-0.28 (-0.4 sd); implied odds 96.4% -> 95.3%
-implied odds range since signing: 93.1% (2026-11-03) to 108.2% (2026-07-30); latest 95.2%
+FCC public notice (2026-09-15): hedged move over 2 days $+0.83 (+1.3 sd); implied odds 99.7% -> 104.9%
+Iridium withdraws 116 petitions (2026-10-14): hedged move over 2 days $+0.35 (+0.5 sd); implied odds 98.9% -> 101.4%
+reply comments filed (2026-11-09): hedged move over 2 days $-0.27 (-0.4 sd); implied odds 96.7% -> 95.5%
+implied odds range since signing: 93.3% (2026-11-03) to 108.7% (2026-07-30); latest 95.4%
 note: uses the Nov 24 option surface for every day, so early-period odds are approximate

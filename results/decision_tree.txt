@@ -1,8 +1,8 @@
-$20m position = 474,158 Iridium shares, hedged with 123,281 Rocket Lab shares short
-FCC grants by Mar 31 2027, deal closes                                   p 24.4%  2027-03-31  Iridium $ 45.18  P&L $ +1.42m
-FCC grants Apr-Jun 2027, deal closes                                     p 35.5%  2027-06-30  Iridium $ 45.18  P&L $ +1.42m
-FCC slips past June (clock stop or a fight over conditions) seen ~Feb 2027, close Sep 2027 p 29.2%  2027-02-15  Iridium $ 41.77  P&L $ -0.19m
-End Date extension notice Jun 28 2027, close Dec 2027                    p  5.5%  2027-06-28  Iridium $ 41.92  P&L $ -0.13m
-Break, Party A re-bids                                                   p  1.4%  2027-06-30  Iridium $ 43.00  P&L $ +0.39m
-Break, standalone                                                        p  4.1%  2027-06-30  Iridium $ 22.81  P&L $ -9.18m
-Iridium $42.18 and Rocket Lab $45.4501 at Nov 24, 2026 10:36 AM ET; branch prices assume Rocket Lab stays there; P&L is before financing, dividends and borrow (expected value net of all of those is in expected_value.py)
+$20m position = 473,709 Iridium shares, hedged with 123,164 Rocket Lab shares short
+FCC grants by Mar 31 2027, deal closes                                   p 24.4%  2027-03-31  Iridium $ 45.11  P&L $ +1.37m
+FCC grants Apr-Jun 2027, deal closes                                     p 35.5%  2027-06-30  Iridium $ 45.11  P&L $ +1.37m
+FCC slips past June (clock stop or a fight over conditions) seen ~Feb 2027, close Sep 2027 p 29.2%  2027-02-15  Iridium $ 41.81  P&L $ -0.20m
+End Date extension notice Jun 28 2027, close Dec 2027                    p  5.5%  2027-06-28  Iridium $ 41.95  P&L $ -0.13m
+Break, Party A re-bids                                                   p  1.4%  2027-06-30  Iridium $ 43.00  P&L $ +0.37m
+Break, standalone                                                        p  4.1%  2027-06-30  Iridium $ 22.81  P&L $ -9.19m
+Iridium $42.22 and Rocket Lab $45.28 at Nov 24, 2026 11:33 AM ET; branch prices assume Rocket Lab stays there; P&L is before financing, dividends and borrow (expected value net of all of those is in expected_value.py)

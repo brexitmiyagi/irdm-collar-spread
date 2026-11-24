@@ -1,0 +1,17 @@
+Iridium $42.22 and Rocket Lab $45.28 at Nov 24, 2026 11:33 AM ET; grant odds counted from the Sep 15 2026 notice
+  today, base inputs                             grant by Apr 30  43%  worth $42.06 (-0.38%)  buy at $41.81  
+  Justice Department letter in the docket        grant by Apr 30  27%  worth $41.91 (-0.73%)  buy at $41.66  my exit
+  UK/Australia/NZ clearances disclosed           grant by Apr 30  43%  worth $42.21 (-0.02%)  buy at $41.96  
+  March 14 2027 passes with no grant             grant by Apr 30  29%  worth $41.83 (-0.92%)  buy at $41.58  (repriced on today's clock)
+  Rocket Lab at $44                              grant by Apr 30  43%  worth $41.72 (-1.19%)  buy at $41.47  deal worth $44.60
+  a Space Bureau or international-office staff meeting: no base rate in my data, so no number; I read it as a sign an order is being drafted
+not-referred deals by what the FCC order says about referral:
+  considered and declined; courtesy copy sent: 145 Amazon-Globalstar (Feb 07 2027), 168 Liberty Latin America-DISH (Puerto Rico/USVI) (Mar 02 2027), 339 T-Mobile-Ka'ena (Mint) (Aug 20 2027)
+  no referral question in the order: 160 AT&T-FTC Management (lease) (Feb 22 2027), 175 Charter-Cox (Mar 09 2027), 189 Verizon-Frontier (Mar 23 2027), 224 AT&T-EchoStar (3.45 GHz/600 MHz) (Apr 27 2027), 224 SpaceX-EchoStar (AWS-4/H-block) (Apr 27 2027), 252 AT&T-UScellular spectrum (May 25 2027), 342 Verizon-UScellular spectrum (Aug 23 2027), 367 Verizon-TracFone (Sep 17 2027), 407 T-Mobile-Grain spectrum (Oct 27 2027)
+  Mint was pulled into review on day 4; Iridium is past day 70 with nothing from the Justice Department.
+  if Iridium matches the two courtesy-copy deals that were not pulled in (145 and 168 days), the grant lands by Mar 02 2027; a close five days later is worth $43.18 (+2.27%)
+Rocket Lab borrow cost (used in the collar pricing and the hedge), base timing:
+  borrow 0.8%: worth $42.06 (-0.38%), buy at $41.81
+  borrow 2.0%: worth $41.97 (-0.59%), buy at $41.72
+  borrow 4.0%: worth $41.82 (-0.95%), buy at $41.57
+  borrow 8.0%: worth $41.53 (-1.65%), buy at $41.28

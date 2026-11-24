@@ -1,0 +1,15 @@
+2026-10-20  Globalstar  83.40  Amazon  262.63  deal  86.58  spread +3.82%
+2026-10-21  Globalstar  83.42  Amazon  262.37  deal  86.53  spread +3.73%
+2026-10-22  Globalstar  82.38  Amazon  250.38  deal  84.22  spread +2.24%
+2026-10-23  Globalstar  82.52  Amazon  248.00  deal  83.76  spread +1.51%
+2026-10-26  Globalstar  82.88  Amazon  249.09  deal  83.97  spread +1.32%
+2026-10-27  Globalstar  83.90  Amazon  253.10  deal  84.75  spread +1.01%   <- FCC grant
+2026-10-28  Globalstar  84.07  Amazon  254.60  deal  85.04  spread +1.15%
+2026-10-29  Globalstar  83.53  Amazon  243.79  deal  82.95  spread -0.69%
+2026-10-30  Globalstar  82.30  Amazon  240.35  deal  82.29  spread -0.01%
+2026-11-02  Globalstar  82.94  Amazon  245.63  deal  83.31  spread +0.44%
+2026-11-03  Globalstar  83.77  Amazon  250.69  deal  84.28  spread +0.61%
+spread the day before the grant +1.32%, on grant day +1.01%: a 0.3-point move
+the spread swings with Amazon by more than the grant moved it (it even goes negative on Oct 29), so the election-mix assumption is doing
+most of the work. Closing also depends on satellite milestones and a $110m adjustment, so the spread does not isolate the FCC.
+conclusion: the implied-close-date method cannot be tested cleanly on Globalstar

@@ -11,6 +11,6 @@ deals that ran past ~18 months or reached their outside date:
   Avangrid / PNM Resources      1166 days  terminated         NMPRC rejected Dec 8 2021; End Date extended Jan 3 2022 / Apr 12 2023 / Jun 20 2023; Avangrid terminated
   Unic / Xcerra                  318 days  terminated         Termination Date extended Dec 7 2017 to Mar 7 2018; CFIUS withdraw and refile; terminated
 4 of 8 closed; the 4 terminations came from state utility commissions (2), a DOJ court injunction (1) and CFIUS with a foreign buyer (1)
-close odds 94.6%: expected 43.13, -0.19% vs T-bills
-close odds 97.0%: expected 43.44, +0.53% vs T-bills
-close odds 98.0%: expected 43.57, +0.82% vs T-bills
+close odds 94.6%: expected 42.01, -0.49% vs T-bills
+close odds 97.0%: expected 42.29, +0.17% vs T-bills
+close odds 98.0%: expected 42.41, +0.45% vs T-bills
