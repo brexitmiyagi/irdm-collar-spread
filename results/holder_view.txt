@@ -7,6 +7,6 @@ $10,000 buys 237 Iridium shares at $42.18; the hedge is short about 62 Rocket La
 unhedged: model delta 0.274 Iridium dollars per Rocket Lab dollar, so 30% of Rocket Lab's percentage moves pass through
   Rocket Lab -10 dollars: Iridium about $-2.93 a share, $-694 on $10,000 unhedged
   Rocket Lab +10 dollars: Iridium about $+2.58 a share, $+612 on $10,000 unhedged
-FCC grant by Mar 31 2027 (day 197): not referred 60%, referred non-satellite 20%, referred satellite 0%, blend 35%
-FCC grant by Apr 30 2027 (day 227): not referred 100%, referred non-satellite 53%, referred satellite 0%, blend 63%
-no grant by Apr 30 2027: remaining timing Jun/Sep/Dec 52%/40%/7%; Iridium worth about $43.05 then; stop P&L on $10,000 hedged $+207 before carry
+FCC grant by Mar 31 2027 (day 197): not referred 42%, referred non-satellite 20%, referred satellite 0%, blend 26%
+FCC grant by Apr 30 2027 (day 227): not referred 58%, referred non-satellite 53%, referred satellite 0%, blend 43%
+no grant by Apr 30 2027: remaining timing Jun/Sep/Dec 36%/54%/10%; Iridium worth about $42.86 then; stop P&L on $10,000 hedged $+160 before carry
