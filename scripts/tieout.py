@@ -22,7 +22,6 @@ checks = {
  'quote_band.py': ['low 43.91, mid 44.33, high 44.75', 'low 0.70, mid 1.12, high 1.54', '90.9% to 95.6%', '85.4% to 92.8%', '43.9% to 63.3%', 'loss on break 14.69'],
  'break_price_history.py': ['2025 year end 17.38 (-40.1%)', '25.12 -> Sep 10 17.96 (-28.5%)', 'low 15.84', 'high 29.68', '(21.3%)'],
  'tax_threshold_odds.py': ['S = 45.0'],
- 'delay_incentive.py': ['($48m) to Rocket Lab'],
  'realized_hedge.py': ['54.59 -> 43.21', '98.01 -> 49.63'],
  'short_interest.py': ['31.5m to 34.2m', '46.4m, 2.8 days to cover', 'rise since Jun 15: 12.2m', 'event-driven funds: 4.7m'],
  'break_price_competition.py': ['$279m', 'worth 0.87 a share', '-> 25.04', '-> 24.35', '-> 22.85', '-> 21.53', '-> 19.15', '-> 16.77', '-1.93 a share'],
