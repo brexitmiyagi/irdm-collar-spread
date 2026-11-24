@@ -53,7 +53,7 @@ Python 3, no packages needed. From any folder:
 
 ## What each script gives you
 
-One thing first. Every valuation script reads data/anchor.json, which holds one snapshot of Iridium, Rocket Lab and Rocket Lab's option chain. The piece uses Nov 24 2026 at 10:36 a.m. ET (Iridium $42.18, Rocket Lab $45.45), with borrow pinned at 0.8% because intraday put-call parity gave a negative number. Some descriptions below still quote what a script printed on the Nov 23 close when I first wrote it, so today's output will differ. The numbers the piece actually quotes are in results/article_numbers.json, and tieout.py checks every one of them.
+One thing first. Every valuation script reads data/anchor.json, which holds one snapshot of Iridium, Rocket Lab and Rocket Lab's option chain. The piece uses Nov 24 2026 at 11:33 a.m. ET (Iridium $42.22, Rocket Lab $45.28), with borrow pinned at 0.8%, the Nov 23 closing reading, because intraday put-call parity swung from negative at 10:36 to 0.4% at 11:33. The 10:36 chain is still in data/ for comparison. Some descriptions below still quote what a script printed on the Nov 23 close when I first wrote it, so today's output will differ. The numbers the piece actually quotes are in results/article_numbers.json, and tieout.py checks every one of them.
 
 - spread_history.py: the daily deal value against the Iridium close since June 26, the 8.4% naive spread, the date Rocket Lab first went under the $67.50 floor, and the October Neutron week.
 - option_adjusted_spread.py: the package priced with Rocket Lab's June 2027 calls, and where the $3.64 spread goes ($2.37 call sold, $0.63 time value, $0.47 dividends back, $1.12 for break risk). The $44.33 is a present value, so 2.59% / 4.66% a year is return above bills, not total return.
@@ -81,6 +81,8 @@ One thing first. Every valuation script reads data/anchor.json, which holds one 
 - short_interest.py: Rocket Lab short interest before and after the deal. It rose 12.2m shares and days to cover is 2.8, so it isn't crowded.
 - break_price_competition.py: a broken Iridium if direct-to-device competition shrinks voice/data and broadband. $17 to $25 depending on how fast.
 - irdm_options.py: Iridium's own option chain is too thin to price a break, and this shows how thin. Plus where the put open interest sits.
+- signposts.py: the "what would change the call" table. For each event (a Justice Department letter, the foreign clearances disclosed, March 14 with no grant, Rocket Lab at $44) it prints the grant odds by Apr 30, what Iridium is worth and the buy price. It also splits the not-referred deals by what the FCC order says about referral (three courtesy-copy deals, nine with no referral question) and shows how the buy price moves with Rocket Lab's borrow cost.
+- globalstar_check.py: my try at testing the implied-close-date method on the Amazon-Globalstar spread around its FCC grant. It doesn't work cleanly. Globalstar holders elect cash or Amazon stock with cash capped at 40%, closing also waits on satellite milestones, and the spread swings with Amazon by more than the grant moved it. I left it in so nobody has to repeat it.
 - fcc_team_telecom_timing.py: two FCC samples. Referred: every ECFS docket since the April 2020 Team Telecom executive order with a Team Telecom letter, 30 non-satellite grants (median 220 days) and three satellite ones (253, 316, 373). Not referred: 12 transfers and assignments where the grant order says the FCC didn't refer it or has no national security section at all (145 to 407 days, median 224). I started with five, all under 224 days, and the seven I added took it from a March grant to a late-April one. T-Mobile-Mint is in there even though the Justice Department pulled it back in four days after the notice, because it wasn't referred at the notice and that's the state Iridium is in. Iridium's notice says it wasn't referred, so the not-referred dates (Feb 7 to Oct 27 2027) carry half the weight. It also prints the twin's pace after its comment cycle: Globalstar's grant came 88 days after its reply deadline, which put on Iridium's Nov 9 deadline is Feb 5 2027.
 - pull_snapshot.py: pulls Iridium, Rocket Lab and Rocket Lab's whole option chain from Nasdaq at one moment and writes data/anchor.json. Run it with a label, then tieout.py, to re-price everything at a new moment.
 - article_numbers.py: computes every number the piece quotes from the anchor and writes results/article_numbers.json. (render_article.py is the small helper I use to fill my draft from that file.)
@@ -104,7 +106,7 @@ One thing first. Every valuation script reads data/anchor.json, which holds one 
 - tax_line.py: the $45.00 Rocket Lab price where the stock leg drops under 40% of the consideration.
 - implied_probability.py: the close odds the market is pricing for three guesses at a broken deal price, plus Party A's 5.5% regulatory fee in dollars a share.
 
-Output from my run on Nov 24, 2026 is in results/, priced at the 10:36 a.m. ET anchor. The tracker logs have each refresh.
+Output from my run on Nov 24, 2026 is in results/, priced at the 11:33 a.m. ET anchor. The tracker logs have each refresh.
 
 ## Sources
 
@@ -156,3 +158,5 @@ Output from my run on Nov 24, 2026 is in results/, priced at the 10:36 a.m. ET a
 ## Corrections
 
 Nov 24 2026, before publication: I grew the not-referred FCC sample from five deals to 12 by reading seven more grant orders. On the same 10:36 a.m. prices, the odds of a grant by Apr 30 2027 went from 63% to 43%, by Mar 31 from 35% to 26%, the base case from $42.26 to $42.03, and my rating from a buy to a hold. The first five are still in the file. The new rows say where each one came from.
+
+Nov 24 2026, before publication: re-priced at the 11:33 a.m. snapshot for submission. The calls didn't move (43% and 26%); the base case is $42.06 against $42.22 and the buy level $41.81. Added a referral_class column to the not-referred deals, signposts.py and globalstar_check.py.
