@@ -1,0 +1,13 @@
+item,value,source
+cash_per_share,27.00,DEFM14A
+ratio_floor,0.4000,DEFM14A (RKLB VWAP at or below 67.50)
+ratio_cap,0.2400,DEFM14A (RKLB VWAP at or above 112.50)
+collar_low,67.50,DEFM14A
+collar_high,112.50,DEFM14A
+stock_target,27.00,DEFM14A
+equity_threshold,0.40,DEFM14A (stock at least 40% of total consideration)
+quarterly_dividend,0.16,Iridium Q3 2026 press release (from Q4 2026)
+tbill_6m,0.0426,FRED DTB6 2026-11-20
+irdm_close,43.21,Nasdaq 2026-11-23
+rklb_close,49.63,Nasdaq 2026-11-23
+days_to_close,205,Nov 24 2026 to Jun 17 2027 (my assumed mid June close)

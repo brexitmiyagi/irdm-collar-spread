@@ -1,0 +1,14 @@
+item,value,unit,source
+spacex_echostar_price,17000,$m,EchoStar release Sep 8 2025 (up to $8.5bn cash + up to $8.5bn SpaceX stock)
+spacex_echostar_interest,2000,$m,EchoStar release (about $2bn of EchoStar cash interest payments funded through Nov 2027)
+aws4_mhz,40,MHz,FCC DA 26-398: 2000-2020 and 2180-2200 MHz
+hblock_mhz,10,MHz,FCC DA 26-1078: 1915-1920 and 1995-2000 MHz
+globalstar_ev,11689,$m,$90 x 129.62m shares + $352.9m debt - $329.9m cash (Globalstar 8-K and Q3 10-Q)
+globalstar_lband_mhz,8.725,MHz,1610-1618.725 MHz (FCC DA 26-398 / Globalstar letter in GN 26-257)
+globalstar_sband_mhz,16.5,MHz,2483.5-2500 MHz Big LEO downlink (FCC DA 26-398); 11.5 MHz terrestrial-licensed (Globalstar 10-Q)
+globalstar_9m_revenue,205.739,$m,Globalstar Q3 2026 10-Q
+apple_share_of_revenue,0.64,fraction,Globalstar Q3 2026 10-Q (nine months)
+iridium_mhz,8.725,MHz,FCC DA 26-985
+aireon_fair_value,523.823,$m,Iridium Q3 2026 10-Q (total acquisition-date fair value of 100%)
+iridium_net_debt,2061.605,$m,Iridium Q3 2026 press release
+iridium_diluted_shares,108.926,m,Iridium Q3 2026 10-Q

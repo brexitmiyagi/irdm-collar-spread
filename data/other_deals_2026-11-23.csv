@@ -1,0 +1,4 @@
+target,acquirer,terms,target_close,acquirer_close,expected_close,source
+GSAT,Amazon,"max 40% at $90 cash, rest 0.3210 AMZN below $280.38",85.96,255.39,2027-06-30,Globalstar 8-K Apr 14 2026; 10-Q says 2027
+TXNM,Blackstone Infrastructure,$61.25 cash,58.95,,2027-06-30,TXNM/PNM Q3 10-Q: first half of 2027
+NSC,Union Pacific,1 UNP + $88.82 cash,316.65,288.89,2027-12-31,NSC 8-K Jul 29 2025; STB decision late 2027 (FreightWaves Aug 19 2026)

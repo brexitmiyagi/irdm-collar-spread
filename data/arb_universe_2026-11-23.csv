@@ -1,0 +1,15 @@
+target,acquirer,terms,value,target_price,expected_close,close_basis,regulatory_heavy,stock_component,cross_border,buyer_regulatory_fee,source
+GSAT,Amazon,"40% x $90 cash + 60% x 0.3210 AMZN (AMZN $255.39 < $280.38)",85.19,85.96,2027-06-30,10-Q says 2027 (mid-year assumed),yes,yes,yes,$592m,Globalstar 8-K Apr 14 2026; Q3 10-Q
+TXNM,Blackstone Infrastructure,$61.25 cash,61.25,58.95,2027-06-30,10-Q: first half of 2027,yes,no,no,$350m,TXNM/PNM Q3 2026 10-Q
+NSC,Union Pacific,1 UNP ($288.89) + $88.82 cash,377.71,316.65,2027-12-31,STB decision late 2027 (FreightWaves),yes,yes,no,$2.5bn either way,NSC 8-K Jul 29 2025; Q3 2026 10-Q
+UNF,Cintas,$155 cash + 0.7720 CTAS ($223.68),327.68,231.37,2027-06-30,proxy target 2H 2026 has passed; mid-2027 assumed,yes,yes,no,see 8-K,UniFirst 8-K Mar 11 2026; DEFM14A May 11 2026
+LITE,Marvell,4.500 MRVL ($144.74),651.33,544.38,2028-06-30,first half of calendar 2028 (press release),yes,yes,no,see 8-K,Lumentum 8-K Nov 2 2026 and Ex. 99.1
+LNTH,Curium,$102.50 cash + CVR up to $12 (CVR not valued),102.50,102.34,2027-06-30,DEFM14A: first half of 2027,yes,no,no,$100m regulatory,Lantheus 8-K Aug 4 2026; DEFM14A
+CZR,Fertitta Entertainment,$31.00 cash (+ticking fee after Jun 26 2027),31.00,29.25,2027-05-27,initial End Date May 27 2027 (DEFM14A),yes,no,no,see DEFM14A,Caesars 8-K May 28 2026; DEFM14A
+SYNA,onsemi,$123 cash (amended),123.00,117.01,2027-06-30,DEFM14A: by mid-2027,yes,no,no,$320m regulatory (original agreement),Synaptics 8-Ks Jun 25 and Oct 1 2026; DEFM14A
+SMTI,MiMedx,$33 cash + 0.4735 MDXG ($3.08),34.46,32.57,2026-12-31,DEFM14A: fourth quarter 2026,no,yes,no,none found,Sanara 8-K Jul 29 2026; DEFM14A
+PTC,Schneider Electric,$205 cash,205.00,196.00,2027-09-30,DEFM14A: by Q3 calendar 2027,yes,no,yes,see 8-K,PTC 8-K Oct 5 2026; DEFM14A
+VREX,Teledyne,$18.90 cash,18.90,18.15,2027-03-31,8-K: early 2027,no,no,no,none found,Varex 8-K Aug 10 2026
+BRZE,Salesforce,$47.50 cash,47.50,46.34,2027-04-30,PREM14A: fiscal year beginning Feb 1 2027 (Apr 30 assumed),yes,no,no,see 8-K,Braze 8-K Oct 20 2026; PREM14A
+PSNL,Tempus AI,$16.25 in TEM stock (TEM $57.04 above $48.42 floor),16.25,14.75,2027-01-31,DEFM14A: late 2026 or early 2027,no,yes,no,none found,Personalis 8-K Jul 20 2026; DEFM14A
+LFCR,Webster Equity Partners,$6.28 cash + CVR (CVR not valued),6.28,6.39,2026-12-31,DEFM14A: end of Q4 2026,no,no,no,none found,Lifecore 8-K Sep 28 2026; DEFM14A
