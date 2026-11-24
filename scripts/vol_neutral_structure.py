@@ -5,7 +5,7 @@ import csv, os, math, random, datetime as dt
 import collar
 from timing_weights import BASE, BREAK_MODEL
 HERE = os.path.dirname(os.path.abspath(__file__))
-rows = list(csv.DictReader(open(os.path.join(HERE, '..', 'data', 'rklb_option_chain_2026-11-24.csv'))))
+rows = list(csv.DictReader(open(os.path.join(HERE, '..', 'data', collar.A['rklb_chain']))))
 EXP = '2028-01-21'
 def q(K, side):
     r = next(x for x in rows if x['expiry'] == EXP and float(x['strike']) == K)

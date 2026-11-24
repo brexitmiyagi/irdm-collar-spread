@@ -17,3 +17,8 @@ print(f'non-satellite median applied to Iridium: {PN + dt.timedelta(days=st.medi
 # provide a courtesy copy". So the right comparison is large transfers the FCC did not refer either.
 print(f'not referred (n={len(NR)}): {NR} days, median {st.median(NR)}; applied to Iridium: '
       + ', '.join((PN + dt.timedelta(days=d)).strftime('%b %d %Y') for d in NR))
+# the twin's pace after its comment cycle closed: Amazon-Globalstar replies were due Jul 31 2026, grant Oct 27 2026
+import csv as _csv, os as _os
+_g = next(r for r in _csv.DictReader(open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..', 'data', 'fcc_nonreferred_transfers.csv'))) if r['deal'] == 'Amazon-Globalstar')
+_lag = (dt.date.fromisoformat(_g['fcc_grant']) - dt.date.fromisoformat(_g['pleading_cycle_closed'])).days
+print(f'Amazon-Globalstar: replies due {_g["pleading_cycle_closed"]}, grant {_g["fcc_grant"]}: {_lag} days; the same lag after Iridium\'s Nov 9 2026 reply deadline lands on {dt.date(2026, 11, 9) + dt.timedelta(days=_lag):%b %d %Y}')

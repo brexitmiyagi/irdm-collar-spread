@@ -4,7 +4,8 @@ from statistics import NormalDist
 N = NormalDist().cdf
 HERE = os.path.dirname(os.path.abspath(__file__))
 sv = json.load(open(os.path.join(HERE, '..', 'results', 'option_surface.json'))); surf, q = sv['surface'], sv['borrow']
-S, P, t0 = 49.63, 43.21, dt.date(2026, 11, 23)
+A = json.load(open(os.path.join(HERE, '..', 'data', 'anchor.json')))
+S, P, t0 = A['rklb'], A['irdm'], dt.date.fromisoformat(A['date'])
 use = ['2027-03-19', '2027-06-17', '2027-09-17', '2028-01-21']   # expiries with enough clean strikes
 def rate(T):
     pts = [(0.25, 0.0413), (0.5, 0.0426), (1.0, 0.0451)]

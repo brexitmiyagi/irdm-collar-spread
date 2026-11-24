@@ -3,7 +3,7 @@
 import csv, os, math, datetime as dt
 import collar
 HERE = os.path.dirname(os.path.abspath(__file__))
-rows = list(csv.DictReader(open(os.path.join(HERE, '..', 'data', 'rklb_option_chain_2026-11-24.csv'))))
+rows = list(csv.DictReader(open(os.path.join(HERE, '..', 'data', collar.A['rklb_chain']))))
 def mid(e, K):
     r = next(x for x in rows if x['expiry'] == e and float(x['strike']) == K)
     return (float(r['put_bid']) + float(r['put_ask'])) / 2

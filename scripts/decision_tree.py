@@ -1,10 +1,10 @@
 # the page clients use: each branch with its probability, the date it resolves, Iridium's price then (Rocket Lab held at $49.63),
-# and the dollar P&L on a $20m hedged position
+# and the dollar P&L on a $20m hedged position (prices from data/anchor.json)
 import math, datetime as dt
 import collar
 from timing_weights import BASE, BREAK_MODEL
 p = 0.946; S = collar.SPOT; P0 = collar.PRICE
-deal = 27 + 0.4 * S                           # what one Iridium share converts into at Rocket Lab $49.63 (below the $67.50 cap)
+deal = 27 + 0.4 * S                           # what one Iridium share converts into at the anchor Rocket Lab price (below the $67.50 cap)
 def reprice(on, close, odds, brk):
     T0 = collar.T0; collar.T0 = on
     V = collar.package(close)['V']; collar.T0 = T0
@@ -25,4 +25,4 @@ tot = 0
 for name, pr, when, px in branches:
     pnl = shares * (px - P0); tot += pr * pnl
     print(f'{name:72s} p {pr:5.1%}  {when}  Iridium ${px:6.2f}  P&L ${pnl/1e6:+6.2f}m')
-print(f'branch prices assume Rocket Lab stays at ${S}; P&L is before financing, dividends and borrow (expected value net of all of those is in expected_value.py)')
+print(f'Iridium ${P0} and Rocket Lab ${S} at {collar.A["irdm_time"]}; branch prices assume Rocket Lab stays there; P&L is before financing, dividends and borrow (expected value net of all of those is in expected_value.py)')

@@ -4,9 +4,10 @@ from statistics import NormalDist
 from linalg import lstsq
 N = NormalDist().cdf
 HERE = os.path.dirname(os.path.abspath(__file__)); DATA = os.path.join(HERE, '..', 'data')
-S, t0 = 49.63, dt.date(2026, 11, 23)
+A = json.load(open(os.path.join(DATA, 'anchor.json')))
+S, t0 = A['rklb'], dt.date.fromisoformat(A['date'])
 f = lambda x: float(x) if x not in ('', 'None', None) else None
-rows = [dict(e=r['expiry'], K=float(r['strike']), cb=f(r['call_bid']), ca=f(r['call_ask']), pb=f(r['put_bid']), pa=f(r['put_ask'])) for r in csv.DictReader(open(os.path.join(DATA, 'rklb_option_chain_2026-11-24.csv')))]
+rows = [dict(e=r['expiry'], K=float(r['strike']), cb=f(r['call_bid']), ca=f(r['call_ask']), pb=f(r['put_bid']), pa=f(r['put_ask'])) for r in csv.DictReader(open(os.path.join(DATA, A['rklb_chain'])))]
 curve = [(float(r['tenor_years']), float(r['yield'])) for r in csv.DictReader(open(os.path.join(DATA, 'rates_2026-11-20.csv')))]
 def rate(T):
     if T <= curve[0][0]: y = curve[0][1]
@@ -34,6 +35,8 @@ for e in sorted(set(r['e'] for r in rows)):
         if val > 0: qs.append(-math.log(val) / T)
     qs.sort(); q = qs[len(qs) // 2] if qs else 0.0
     if T > 0.25: allq.append(q)
+    q_par = q
+    if 'borrow_override' in A: q = A['borrow_override']   # intraday quotes on a falling stock give nonsense parity borrow; pin it
     pts = []
     for x in rows:
         if x['e'] != e or not x['cb'] or x['ca'] is None: continue
@@ -45,7 +48,10 @@ for e in sorted(set(r['e'] for r in rows)):
     be = lstsq([[1, p[0], p[0] ** 2] for p in pts], [p[1] for p in pts])
     g = lambda K: be[0] + be[1] * math.log(K / S) + be[2] * math.log(K / S) ** 2
     out[e] = dict(T=T, r=r, q=q, n=len(pts), kmax=max(p[2] for p in pts), iv50=g(50), iv675=g(67.5), iv1125=g(112.5))
-    print(f"{e}: parity-implied borrow {q*100:+.1f}%, {len(pts)} strikes, IV at 50 {g(50):.0%}, at 67.50 {g(67.5):.0%}, at 112.50 {g(112.5):.0%}")
+    print(f"{e}: parity-implied borrow {q_par*100:+.1f}% (used {q*100:+.1f}%), {len(pts)} strikes, IV at 50 {g(50):.0%}, at 67.50 {g(67.5):.0%}, at 112.50 {g(112.5):.0%}")
 allq.sort(); qmed = allq[len(allq) // 2]
+if 'borrow_override' in A:
+    print(f'parity borrow median {qmed*100:.1f}% is not usable intraday; pinned at {A["borrow_override"]*100:.1f}%, the last clean reading (Nov 23 close)')
+    qmed = A['borrow_override']
 print(f"median parity-implied borrow cost (expiries past 3 months): {qmed*100:.1f}% a year")
 json.dump(dict(surface=out, borrow=qmed), open(os.path.join(HERE, '..', 'results', 'option_surface.json'), 'w'), indent=1)

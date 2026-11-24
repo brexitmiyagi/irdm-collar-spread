@@ -8,7 +8,7 @@ def ev(W, p=0.946, q=0.25, B0=BREAK_MODEL):
     V = sum(a * b for a, b in zip(W, pk)); return V, p * V + (1 - p) * ((1 - q) * B0 + q * 43.0) * DFb
 for lab, W in (('non-satellite', NONSAT), ('satellite', SAT), ('referred 50/50', REFERRED), ('not referred', NONREF), ('base blend', BASE)):
     print(f'{lab:14s} package {ev(W)[0]:.2f}')
-print('expected value vs T-bills at $43.21 (timing / break / odds / Party A):')
+print(f'expected value vs T-bills at ${collar.PRICE} (Rocket Lab ${collar.SPOT}, {collar.A["irdm_time"]}) (timing / break / odds / Party A):')
 for lab, W in (('non-satellite', NONSAT), ('satellite', SAT), ('referred 50/50', REFERRED), ('not referred', NONREF), ('base blend', BASE)):
     for B0 in (BREAK_MODEL, 28.04):
         for p in (0.946, 0.97):
@@ -29,4 +29,10 @@ def implied_odds(px, W=BASE):
         m = (lo + hi) / 2
         lo, hi = (m, hi) if ev(W, m)[1] < px else (lo, m)
     return (lo + hi) / 2
-print(f'close odds implied by the entry price on base timing: {implied_odds(entry):.1%}; by $43.21: {implied_odds(collar.PRICE):.1%}')
+print(f'close odds implied by the entry price on base timing: {implied_odds(entry):.1%}; by ${collar.PRICE}: {implied_odds(collar.PRICE):.1%}')
+# the timing weighting, side by side: each sample on its own and the blend I use (half not referred, a quarter each referred set)
+print('timing weighting (weights Mar/Jun/Sep/Dec 2027 | weight in my blend | value | vs T-bills | entry at +0.6%):')
+for lab, W, wt in (('not referred (5 deals)', NONREF, '50%'), ('referred non-satellite (30)', NONSAT, '25%'),
+                   ('referred satellite (3)', SAT, '25%'), ('blend I use', BASE, '-')):
+    e = ev(W)[1]
+    print(f'  {lab:28s} {"/".join(f"{x:.0%}" for x in W):18s} {wt:>4s}  {e:.2f}  {e/collar.PRICE-1:+.2%}  {e/1.006:.2f}')

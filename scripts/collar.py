@@ -3,7 +3,8 @@ import os, math, json, datetime as dt
 from statistics import NormalDist
 N = NormalDist().cdf
 HERE = os.path.dirname(os.path.abspath(__file__))
-T0 = dt.date(2026, 11, 23); PRICE = 43.21; SPOT = 49.63
+A = json.load(open(os.path.join(HERE, '..', 'data', 'anchor.json')))   # one timestamp for every price (pull_snapshot.py)
+T0 = dt.date.fromisoformat(A['date']); PRICE = A['irdm']; SPOT = A['rklb']
 _sv = None
 def surface():
     global _sv
