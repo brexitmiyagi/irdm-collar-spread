@@ -1,0 +1,40 @@
+docket,sector,accepted_pn,fcc_action,days,outcome,first_team_telecom_letter,days_to_first_tt_letter,tt_extension_or_secondary,action_doc
+20-197,wireline/media/wireless,2020-07-23,2021-01-14,175,granted,2020-08-03,11,0,DA-21-63A1.pdf
+20-44,wireline/media/wireless,2020-07-30,2021-02-25,210,granted,2020-08-03,4,0,DA-21-235A1.pdf
+20-275,wireline/media/wireless,2020-09-10,2021-03-24,195,granted,2020-09-16,6,0,DA-21-346A1.pdf
+20-240,wireline/media/wireless,2020-09-30,2021-05-07,219,granted,2020-10-06,6,0,DA-21-541A1.pdf
+20-344,wireline/media/wireless,2020-11-03,2021-04-15,163,granted,2020-11-09,6,0,DA-21-432A1.pdf
+20-149,wireline/media/wireless,2020-12-02,,,no grant found in docket,2021-02-08,68,0,
+20-229,wireline/media/wireless,2020-12-09,2021-06-16,189,granted,2020-12-16,7,0,DA-21-707A1.pdf
+20-427,wireline/media/wireless,2020-12-31,2021-07-16,197,granted,2021-01-04,4,0,DA-21-849A1.pdf
+19-96,wireline/media/wireless,2021-02-02,,,no grant found in docket,2021-02-08,6,1,
+21-141,wireline/media/wireless,2021-04-09,2021-12-22,257,granted,2021-04-26,17,0,DA-21-1622A1.pdf
+21-172,wireline/media/wireless,2021-04-20,2021-11-23,217,granted,2021-04-22,2,0,DA-21-1468A1.pdf
+21-131,wireline/media/wireless,2021-05-14,2021-11-29,199,granted,2021-05-20,6,0,DA-21-1481A1.pdf
+21-445,wireline/media/wireless,2021-12-15,2022-08-02,230,granted,2021-12-22,7,1,DA-22-811A1.pdf
+22-129,wireline/media/wireless,2022-03-18,2023-06-02,441,granted,2022-03-24,6,0,DA-23-475A1.pdf
+22-110,wireline/media/wireless,2022-03-21,2022-10-13,206,granted,2022-03-28,7,0,DA-22-1092A1.pdf
+22-128,wireline/media/wireless,2022-04-07,2022-12-22,259,granted,2022-04-12,5,0,DA-22-1362A1.pdf
+22-141,wireline/media/wireless,2022-04-20,2022-11-04,198,granted,2022-05-05,15,0,DA-22-1157A1.pdf
+22-162,wireline/media/wireless,2022-04-21,2023-06-30,435,withdrawn (TEGNA; withdrawal letter DA-23-574 in MB 22-166),2022-05-04,13,0,DA-23-574A1.pdf
+22-153,satellite,2022-05-11,2023-05-19,373,granted,,,,"DA-23-427A1.pdf (Committee deferral then petition, per order)"
+22-155,wireline/media/wireless,2022-05-25,2022-12-22,211,granted,2022-08-31,98,0,DA-22-1361A1.pdf
+22-404,satellite,2022-11-23,2023-08-03,253,granted,2022-11-29,6,1,DA-23-659A1.pdf (effective Aug 3 2023)
+22-31,wireline/media/wireless,2022-12-02,2023-10-26,328,granted,2022-12-08,6,1,DA-23-1014A1.pdf
+22-400,wireline/media/wireless,2022-12-09,2023-08-17,251,granted,2023-04-03,115,1,DA-23-715A1.pdf
+23-11,wireline/media/wireless,2023-01-06,2023-09-28,265,granted,2023-01-12,6,0,DA-23-909A1.pdf
+23-30,wireline/media/wireless,2023-02-24,2023-09-14,202,granted,2023-03-01,5,0,DA-23-845A1.pdf
+23-153,wireline/media/wireless,2023-05-04,2023-12-26,236,granted,2023-05-09,5,0,DA-23-1206A1.pdf
+22-410,wireline/media/wireless,2023-05-05,2023-12-21,230,granted,2023-05-09,4,0,DA-23-1197A1.pdf
+23-268,wireline/media/wireless,2023-09-08,2024-06-13,279,granted,2024-01-24,138,0,DA-24-568A1.pdf
+23-356,wireline/media/wireless,2023-10-20,2024-08-02,287,granted,2023-12-14,55,0,DA-24-752A1.pdf
+24-267,satellite,2024-08-29,2025-07-11,316,granted,,,,"DA-25-614A1.pdf (Committee deferral then petition, per order)"
+24-286,wireline/media/wireless,2024-09-11,,,grant not identified in docket,2025-04-10,211,0,
+24-244,wireline/media/wireless,2024-09-20,2025-07-09,292,granted,2025-02-12,145,0,DA-25-601A1.pdf
+25-200,wireline/media/wireless,2025-06-18,2026-07-07,384,granted,2026-03-05,260,0,DA-26-680A1.pdf
+25-174,wireline/media/wireless,2025-08-22,2026-04-24,245,granted,2025-09-04,13,1,DA-26-405A1.pdf
+25-249,wireline/media/wireless,2025-09-19,2026-04-20,213,granted,2025-09-30,11,1,DA-26-383A1.pdf
+25-189,wireline/media/wireless,2025-12-05,2026-07-13,220,granted,2025-12-17,12,1,DA-26-712A1.pdf
+26-93,wireline/media/wireless,2026-04-27,2026-09-17,143,granted,2026-04-29,2,0,DA-26-1001A1.pdf
+26-141,wireline/media/wireless,2026-07-31,,,no grant found in docket,2026-08-07,7,1,
+26-110,wireline/media/wireless,2026-10-13,,,no grant found in docket,2026-10-20,7,1,
