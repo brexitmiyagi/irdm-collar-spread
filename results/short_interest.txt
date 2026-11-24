@@ -1,0 +1,4 @@
+before the deal (Apr 15 to Jun 15 2026): 31.5m to 34.2m shares short
+latest (2026-10-30): 46.4m, 2.8 days to cover
+rise since Jun 15: 12.2m shares
+arb hedge on 106.16m Iridium shares at the model ratio of 0.26: 27.6m; on the 18.26m held by event-driven funds: 4.7m

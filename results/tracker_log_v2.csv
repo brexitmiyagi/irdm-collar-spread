@@ -1,0 +1,4 @@
+run,irdm,rklb,irdm_time,bill,bill_date,package_base,expected_value,ev_vs_bills,implied_odds,entry_price,fcc_filings,doj_filings,alerts
+2026-11-24,42.85,47.8,"Nov 24, 2026 9:33 AM ET",0.0426,2026-11-20,43.43,42.55,-0.0069,0.9642,42.3,12,0,none
+2026-11-24,42.5,46.51,"Nov 24, 2026 9:49 AM ET",0.0426,2026-11-20,43.5,42.62,0.0029,0.9385,42.37,12,0,none
+2026-11-24,42.585,46.6901,"Nov 24, 2026 10:00 AM ET",0.0426,2026-11-20,43.55,42.67,0.002,0.9409,42.41,12,0,none

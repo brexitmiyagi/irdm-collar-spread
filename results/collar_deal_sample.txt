@@ -1,0 +1,6 @@
+all collar deals         n=604 median 277 days; closed by Iridium-equivalent Mar 31 50%, Jun 30 68%, Sep 30 90%, Dec 28 96%
+FCC or CFIUS in proxy    n= 92 median 366 days; closed by Iridium-equivalent Mar 31 33%, Jun 30 51%, Sep 30 72%, Dec 28 87%
+CFIUS in proxy           n= 48 median 374 days; closed by Iridium-equivalent Mar 31 23%, Jun 30 46%, Sep 30 71%, Dec 28 94%
+note: this automated pass dates announcements from the first 8-K item 1.01 before the proxy, which is often a credit agreement,
+so it overstates deal length. scripts/late_deals.py uses the hand-checked set instead, and that is what the post quotes.
+8-K item 1.02 also covers credit facilities and superseded agreements, so no break rate is taken from this pass

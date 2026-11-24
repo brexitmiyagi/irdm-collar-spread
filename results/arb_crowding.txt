@@ -1,0 +1,20 @@
+merger-arb / event-driven: 11 filers, Q2 1.1m shares (1.0%) -> Q3 4.9m (4.6% of 106m outstanding)
+   Pentwater Capital Management Lp             0.00m ->  1.44m
+   Alpine Associates Management Inc.           0.29m ->  1.00m
+   Magnetar Financial Llc                      0.15m ->  0.94m
+   Glazer Capital, Llc                         0.00m ->  0.53m
+   Aqr Arbitrage Llc                           0.13m ->  0.44m
+   Sculptor Capital Lp                         0.47m ->  0.30m
+   Gabelli & Co Investment Advisers, Inc.      0.01m ->  0.12m
+   Gabelli Funds Llc                           0.01m ->  0.11m
+multi-strategy pods: 11 filers, Q2 1.2m shares (1.2%) -> Q3 11.4m (10.7% of 106m outstanding)
+   Balyasny Asset Management L.P.              0.97m ->  5.18m
+   Tudor Investment Corp Et Al                 0.00m ->  3.95m
+   Millennium Management Llc                   0.15m ->  2.09m
+   Schonfeld Strategic Advisors Llc            0.00m ->  0.09m
+   Walleye Capital Llc                         0.03m ->  0.02m
+   Squarepoint Ops Llc                         0.06m ->  0.01m
+   Citadel Advisors Llc                        0.00m ->  0.01m
+   Marshall Wace, Llp                          0.00m ->  0.01m
+spread holders combined: 2.3m (2.2%) at Jun 30 -> 16.3m (15.4%) at Sep 30
+caveat: 13Fs are long-only snapshots 45 days stale; pods may hold Iridium for reasons other than the spread

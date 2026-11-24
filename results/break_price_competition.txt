@@ -1,0 +1,9 @@
+annualized voice/data + broadband: $279m; base break value 27.47 on $532m OEBITDA at 9.5x
+each $10m of OEBITDA is worth 0.87 a share
+  exposed lines fall 5% a year for 3 years, 70% drops to OEBITDA: OEBITDA $504m -> 25.04 a share
+  exposed lines fall 5% a year for 3 years, 90% drops to OEBITDA: OEBITDA $496m -> 24.35 a share
+  exposed lines fall 10% a year for 3 years, 70% drops to OEBITDA: OEBITDA $479m -> 22.85 a share
+  exposed lines fall 10% a year for 3 years, 90% drops to OEBITDA: OEBITDA $464m -> 21.53 a share
+  exposed lines fall 20% a year for 3 years, 70% drops to OEBITDA: OEBITDA $437m -> 19.15 a share
+  exposed lines fall 20% a year for 3 years, 90% drops to OEBITDA: OEBITDA $409m -> 16.77 a share
+EMSS (fixed $110.5m a year) repriced 20% lower: -1.93 a share

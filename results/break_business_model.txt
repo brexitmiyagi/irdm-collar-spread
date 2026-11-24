@@ -1,0 +1,13 @@
+annualized Q3 2026 revenue by line ($m): voice_and_data 232, iot_data 195, broadband 47, hosted_payload_and_other 166, government_services 110, subscriber_equipment 76, engineering_and_support 157
+contribution at assumed flow-through 671; implied fixed costs 139; base OEBITDA 532
+break value a share (2028 OEBITDA, two years of erosion), by multiple 7.5x / 9.5x / 11.5x:
+  D2D erosion 0%/yr, EMSS cut 0%: OEBITDA 532 -> 17.70 / 27.47 / 37.24
+  D2D erosion 0%/yr, EMSS cut 20%: OEBITDA 513 -> 16.41 / 25.84 / 35.26
+  D2D erosion 5%/yr, EMSS cut 0%: OEBITDA 498 -> 15.37 / 24.51 / 33.66
+  D2D erosion 5%/yr, EMSS cut 20%: OEBITDA 479 -> 14.08 / 22.88 / 31.68
+  D2D erosion 10%/yr, EMSS cut 0%: OEBITDA 466 -> 13.14 / 21.69 / 30.24
+  D2D erosion 10%/yr, EMSS cut 20%: OEBITDA 447 -> 11.85 / 20.05 / 28.26
+  D2D erosion 20%/yr, EMSS cut 0%: OEBITDA 405 -> 8.99 / 16.44 / 23.88
+  D2D erosion 20%/yr, EMSS cut 20%: OEBITDA 387 -> 7.70 / 14.80 / 21.90
+weighted at 9.5x across my case weights: 22.81; at 7.5x: 14.02
+the $183.4m interest-free Aireon seller loan falls due Jul 2 2027 if the deal has not closed; it is already in net debt, so a break means refinancing it, not a new hole

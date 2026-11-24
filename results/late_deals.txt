@@ -1,0 +1,16 @@
+hand-checked regulated collar deals: 47 closed, median 203 days from the signing 8-K to delisting
+closed by Iridium-equivalent dates: Mar 31 64%, Jun 30 77%, Sep 30 87%, Dec 28 94%
+regulatory terminations: 5 of 52 = 9.6%
+deals that ran past ~18 months or reached their outside date:
+  AT&T / Time Warner             600 days  closed             DOJ sued Nov 20 2017; Termination Date extended by letter Oct 20 2017 and again to Apr 22 2018
+  Chevron / Hess                 635 days  closed             closing held up by the Stabroek Block preemption arbitration
+  Nippon Steel / US Steel        548 days  closed             presidential order blocking it; litigation; de novo CFIUS review; then closed
+  Great Plains / Westar          738 days  closed on new terms KCC denied Apr 19 2017; End Date extended May 30 2017 to renegotiate; amended and restated Jul 9 2017
+  NextEra / Hawaiian Electric    591 days  terminated         NextEra terminated after the Hawaii PUC decision of Jul 15 2016
+  JetBlue / Spirit               585 days  terminated         court granted DOJ a permanent injunction Jan 16 2024; termination agreement Mar 4 2024
+  Avangrid / PNM Resources      1166 days  terminated         NMPRC rejected Dec 8 2021; End Date extended Jan 3 2022 / Apr 12 2023 / Jun 20 2023; Avangrid terminated
+  Unic / Xcerra                  318 days  terminated         Termination Date extended Dec 7 2017 to Mar 7 2018; CFIUS withdraw and refile; terminated
+4 of 8 closed; the 4 terminations came from state utility commissions (2), a DOJ court injunction (1) and CFIUS with a foreign buyer (1)
+close odds 94.6%: expected 43.13, -0.19% vs T-bills
+close odds 97.0%: expected 43.44, +0.53% vs T-bills
+close odds 98.0%: expected 43.57, +0.82% vs T-bills

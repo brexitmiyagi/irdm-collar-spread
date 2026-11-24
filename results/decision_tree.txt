@@ -1,0 +1,8 @@
+$20m position = 462,856 Iridium shares, hedged with 120,343 Rocket Lab shares short
+FCC grants by Mar 31 2027, deal closes                                   p 33.1%  2027-03-31  Iridium $ 46.85  P&L $ +1.69m
+FCC grants Apr-Jun 2027, deal closes                                     p 42.6%  2027-06-30  Iridium $ 46.85  P&L $ +1.69m
+FCC slips past June (clock stop or a fight over conditions) seen ~Feb 2027, close Sep 2027 p 17.3%  2027-02-15  Iridium $ 42.83  P&L $ -0.17m
+End Date extension notice Jun 28 2027, close Dec 2027                    p  1.6%  2027-06-28  Iridium $ 43.00  P&L $ -0.10m
+Break, Party A re-bids                                                   p  1.4%  2027-06-30  Iridium $ 43.00  P&L $ -0.10m
+Break, standalone                                                        p  4.1%  2027-06-30  Iridium $ 22.81  P&L $ -9.44m
+branch prices assume Rocket Lab stays at $49.63; P&L is before financing, dividends and borrow (expected value net of all of those is in expected_value.py)

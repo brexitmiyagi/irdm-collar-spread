@@ -1,0 +1,10 @@
+irdm_option_chain_premarket_2026-11-24.csv: 92 strikes x 2 sides, 60 with a two-sided quote
+two-sided quote width: median $5.00, range $2.05 to $10.00
+largest put open interest:
+  2027-01-15 $45.00 put: 1027 contracts
+  2028-12-15 $22.50 put: 801 contracts
+  2027-01-15 $40.00 put: 685 contracts
+  2028-12-15 $25.00 put: 571 contracts
+  2027-01-15 $30.00 put: 217 contracts
+  2027-01-15 $50.00 put: 136 contracts
+total put open interest 4341; at strikes of $30 or less 1945 (45%); of that, expiring after Dec 28 2027: 1474

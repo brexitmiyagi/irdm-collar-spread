@@ -1,0 +1,8 @@
+2027-03-31: collar value on Rocket Lab side 1.46 a share ($155m); Iridium package 45.27
+2027-06-30: collar value on Rocket Lab side 2.47 a share ($262m); Iridium package 44.09
+2027-09-30: collar value on Rocket Lab side 2.94 a share ($312m); Iridium package 43.43
+2027-12-28: collar value on Rocket Lab side 3.39 a share ($360m); Iridium package 42.64
+2027-03-31 -> 2027-06-30: collar moves 1.01 a share ($107m) to Rocket Lab; Iridium holders lose 1.18 ($125m) in all
+2027-06-30 -> 2027-09-30: collar moves 0.47 a share ($50m) to Rocket Lab; Iridium holders lose 0.66 ($70m) in all
+2027-09-30 -> 2027-12-28: collar moves 0.45 a share ($48m) to Rocket Lab; Iridium holders lose 0.78 ($83m) in all
+Mar -> Dec 2027: collar 1.93 a share ($205m); package 2.62 ($278m)

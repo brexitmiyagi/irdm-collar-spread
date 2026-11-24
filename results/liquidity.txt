@@ -1,0 +1,5 @@
+average daily volume (Nasdaq, period to 2026-10-30): Iridium 688,924 shares ($29.8m), Rocket Lab 16,416,179 shares ($815m)
+$5m: 115,714 Iridium shares = 0.8 days at 20% of volume; hedge 30,086 Rocket Lab shares = 0.2% of one day; a break costs $2.4m at the model break price
+$20m: 462,856 Iridium shares = 3.4 days at 20% of volume; hedge 120,343 Rocket Lab shares = 0.7% of one day; a break costs $9.4m at the model break price
+$50m: 1,157,140 Iridium shares = 8.4 days at 20% of volume; hedge 300,856 Rocket Lab shares = 1.8% of one day; a break costs $23.6m at the model break price
+borrow: no live fee source available; the options imply about 0.8% a year. 1 pt more borrow on the hedge costs about $0.13 an Iridium share a year

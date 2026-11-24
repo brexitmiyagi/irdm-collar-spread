@@ -1,0 +1,32 @@
+non-satellite  package 44.18
+satellite      package 43.65
+referred 50/50 package 43.91
+not referred   package 44.79
+base blend     package 44.35
+expected value vs T-bills at $43.21 (timing / break / odds / Party A):
+  non-satellite  break 22.81 odds 94.6% Party A 25%: 43.26 (+0.12%)
+  non-satellite  break 22.81 odds 97.0% Party A 25%: 43.67 (+1.07%)
+  non-satellite  break 28.04 odds 94.6% Party A 25%: 43.47 (+0.60%)
+  non-satellite  break 28.04 odds 97.0% Party A 25%: 43.79 (+1.33%)
+  satellite      break 22.81 odds 94.6% Party A 25%: 42.76 (-1.05%)
+  satellite      break 22.81 odds 97.0% Party A 25%: 43.15 (-0.14%)
+  satellite      break 28.04 odds 94.6% Party A 25%: 42.96 (-0.57%)
+  satellite      break 28.04 odds 97.0% Party A 25%: 43.27 (+0.13%)
+  referred 50/50 break 22.81 odds 94.6% Party A 25%: 43.01 (-0.46%)
+  referred 50/50 break 22.81 odds 97.0% Party A 25%: 43.41 (+0.47%)
+  referred 50/50 break 28.04 odds 94.6% Party A 25%: 43.22 (+0.01%)
+  referred 50/50 break 28.04 odds 97.0% Party A 25%: 43.53 (+0.73%)
+  not referred   break 22.81 odds 94.6% Party A 25%: 43.84 (+1.46%)
+  not referred   break 22.81 odds 97.0% Party A 25%: 44.26 (+2.44%)
+  not referred   break 28.04 odds 94.6% Party A 25%: 44.05 (+1.94%)
+  not referred   break 28.04 odds 97.0% Party A 25%: 44.38 (+2.71%)
+  base blend     break 22.81 odds 94.6% Party A 25%: 43.43 (+0.50%)
+  base blend     break 22.81 odds 97.0% Party A 25%: 43.84 (+1.45%)
+  base blend     break 28.04 odds 94.6% Party A 25%: 43.63 (+0.98%)
+  base blend     break 28.04 odds 97.0% Party A 25%: 43.95 (+1.72%)
+  base, Party A 0%: 43.16 (-0.12%)
+  base, Party A 50%: 43.69 (+1.11%)
+base case: 43.43, +0.50% vs T-bills over about 0.57 years
+fair value range (base timing and break, odds 94.6% to 97%): 43.43 to 43.84
+entry price for a +0.6% expected edge over T-bills (about 1% a year) on base inputs: 43.17
+close odds implied by the entry price on base timing: 93.1%; by $43.21: 93.3%
