@@ -10,3 +10,4 @@ not referred   weights Mar/Jun/Sep/Dec 2027: 60% / 40% / 0% / 0%
 base blend     weights Mar/Jun/Sep/Dec 2027: 35% / 45% / 18% / 2%
 non-satellite median applied to Iridium: Apr 22 2027; satellite median: Jul 28 2027
 not referred (n=5): [145, 175, 189, 224, 224] days, median 189; applied to Iridium: Feb 07 2027, Mar 09 2027, Mar 23 2027, Apr 27 2027, Apr 27 2027
+Amazon-Globalstar: replies due 2026-07-31, grant 2026-10-27: 88 days; the same lag after Iridium's Nov 9 2026 reply deadline lands on Feb 05 2027

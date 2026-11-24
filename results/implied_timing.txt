@@ -1,0 +1,13 @@
+Iridium $42.18 at Rocket Lab $45.4501 (Nov 24, 2026 10:36 AM ET), 94.6% odds: the price pays for a close around Jun 07 2027
+  at 92% odds: May 01 2027
+  at 97% odds: Jul 30 2027
+where the FCC samples point (grant date, from the Sep 15 2026 notice):
+  not referred, median 189 days: Mar 23 2027; range Feb 07 to Apr 27 2027
+  not referred             expected close (probability-weighted quarter-ends): May 06 2027
+  referred non-satellite   expected close (probability-weighted quarter-ends): Jun 30 2027
+  referred satellite       expected close (probability-weighted quarter-ends): Aug 30 2027
+  blend I use              expected close (probability-weighted quarter-ends): Jun 18 2027
+gap between the price's close date and my blend's expected close: -11 days; and the not-referred median grant: +76 days (2.5 months)
+worth at a close on Mar 28 2027 (not-referred median grant + 5 days): $42.88, +1.66% vs today's price
+  one month of delay, Mar to Apr: $0.37 a share
+  one month of delay, May to Jun: $0.17 a share

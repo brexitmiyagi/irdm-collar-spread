@@ -1,6 +1,6 @@
 tax line: 0.4 S / (27 + 0.4 S) = 40% at S = 45.0
-2027-03-19: risk-neutral odds Rocket Lab is below about $45 = 47%  (40/50 put spread, mids)
-2027-06-17: risk-neutral odds Rocket Lab is below about $45 = 50%  (40/50 put spread, mids)
-2027-09-17: risk-neutral odds Rocket Lab is below about $45 = 56%  (40/50 put spread, mids)
+2027-03-19: risk-neutral odds Rocket Lab is below about $45 = 55%  (40/50 put spread, mids)
+2027-06-17: risk-neutral odds Rocket Lab is below about $45 = 58%  (40/50 put spread, mids)
+2027-09-17: risk-neutral odds Rocket Lab is below about $45 = 63%  (40/50 put spread, mids)
 2028-01-21: risk-neutral odds Rocket Lab is below about $45 = 59%  (40/50 put spread, mids)
 the test uses the greatest of five Rocket Lab prices around closing, so true odds are a little lower

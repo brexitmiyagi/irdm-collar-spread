@@ -1,19 +1,19 @@
-Jan 2028 calls: synthetic $67.50 12.04 mid (12.50 at the ask), synthetic $112.50 5.29 mid (4.75 at the bid)
-outlay per Iridium share: 26.90 at mids, 27.22 paying the spread (bid/ask cost 0.31)
--- mids: outlay 26.90
-   close 2027-03-31: leftover option time value 1.99, PV of payoff 28.84, +7.18% vs T-bills if it closes then
-   close 2027-06-30: leftover option time value 1.12, PV of payoff 27.79, +3.31% vs T-bills if it closes then
-   close 2027-09-30: leftover option time value 0.54, PV of payoff 27.03, +0.48% vs T-bills if it closes then
-   close 2027-12-28: leftover option time value 0.11, PV of payoff 26.29, -2.29% vs T-bills if it closes then
-   blend timing, 94.6% odds, implied vol -10 pts at closing: expected -0.11% vs T-bills on the 26.90 outlay
-   blend timing, 94.6% odds, implied vol +0 pts at closing: expected +0.61% vs T-bills on the 26.90 outlay
-   blend timing, 94.6% odds, implied vol +10 pts at closing: expected +1.33% vs T-bills on the 26.90 outlay
--- paying bid/ask: outlay 27.22
-   close 2027-03-31: leftover option time value 1.99, PV of payoff 28.84, +5.94% vs T-bills if it closes then
-   close 2027-06-30: leftover option time value 1.12, PV of payoff 27.79, +2.11% vs T-bills if it closes then
-   close 2027-09-30: leftover option time value 0.54, PV of payoff 27.03, -0.68% vs T-bills if it closes then
-   close 2027-12-28: leftover option time value 0.11, PV of payoff 26.29, -3.42% vs T-bills if it closes then
-   blend timing, 94.6% odds, implied vol -10 pts at closing: expected -1.20% vs T-bills on the 27.22 outlay
-   blend timing, 94.6% odds, implied vol +0 pts at closing: expected -0.49% vs T-bills on the 27.22 outlay
-   blend timing, 94.6% odds, implied vol +10 pts at closing: expected +0.22% vs T-bills on the 27.22 outlay
+Jan 2028 calls: synthetic $67.50 10.16 mid (10.75 at the ask), synthetic $112.50 4.30 mid (3.75 at the bid)
+outlay per Iridium share: 27.03 at mids, 27.40 paying the spread (bid/ask cost 0.37)
+-- mids: outlay 27.03
+   close 2027-03-31: leftover option time value 1.87, PV of payoff 28.73, +6.26% vs T-bills if it closes then
+   close 2027-06-30: leftover option time value 1.11, PV of payoff 27.80, +2.83% vs T-bills if it closes then
+   close 2027-09-30: leftover option time value 0.54, PV of payoff 27.04, +0.04% vs T-bills if it closes then
+   close 2027-12-28: leftover option time value 0.11, PV of payoff 26.30, -2.72% vs T-bills if it closes then
+   blend timing, 94.6% odds, implied vol -10 pts at closing: expected -0.46% vs T-bills on the 27.03 outlay
+   blend timing, 94.6% odds, implied vol +0 pts at closing: expected +0.24% vs T-bills on the 27.03 outlay
+   blend timing, 94.6% odds, implied vol +10 pts at closing: expected +0.93% vs T-bills on the 27.03 outlay
+-- paying bid/ask: outlay 27.40
+   close 2027-03-31: leftover option time value 1.87, PV of payoff 28.73, +4.84% vs T-bills if it closes then
+   close 2027-06-30: leftover option time value 1.11, PV of payoff 27.80, +1.45% vs T-bills if it closes then
+   close 2027-09-30: leftover option time value 0.54, PV of payoff 27.04, -1.30% vs T-bills if it closes then
+   close 2027-12-28: leftover option time value 0.11, PV of payoff 26.30, -4.02% vs T-bills if it closes then
+   blend timing, 94.6% odds, implied vol -10 pts at closing: expected -1.72% vs T-bills on the 27.40 outlay
+   blend timing, 94.6% odds, implied vol +0 pts at closing: expected -1.03% vs T-bills on the 27.40 outlay
+   blend timing, 94.6% odds, implied vol +10 pts at closing: expected -0.35% vs T-bills on the 27.40 outlay
 a break costs the same as the plain hedge: Iridium to about $22.81 (or $43 if Party A re-bids) while the Rocket Lab legs are unwound near their current value
